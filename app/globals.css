@@ -14,9 +14,13 @@ aside {
 }
 
 main {
-	@apply col-start-2 flex flex-col justify-evenly;
+	@apply col-start-2 flex flex-col;
 }
 
 footer {
 	@apply col-start-2 row-start-2;
+}
+
+button {
+	@apply px-2 py-1 bg-slate-200 hover:bg-slate-300;
 }
