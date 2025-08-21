@@ -11,6 +11,7 @@ export const CONSTRAINTS = {
 		value: /^[+-]?([0-9]+([.][0-9]*)?|[.][0-9]+)$/g,
 		message: 'Value of 0-9 is required',
 	},
+	// valueAsNumber: true,
 };
 
 export function isEmptyObj(obj: object) {

@@ -1,8 +1,10 @@
 export type FormType = {
-	before: number;
-	after: number;
+	before: string;
+	after: string;
 };
 
-export interface FormResultInterface extends FormType {
+export interface FormResultInterface {
+	before: number;
+	after: number;
 	name: string;
 }
